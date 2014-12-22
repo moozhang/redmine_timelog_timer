@@ -30,6 +30,7 @@ A zip archive can be gotten from {GitHub}[https://github.com/emovere/redmine_tim
 == Installation and Setup
 
 1. Follow the installation steps at: http://www.redmine.org/projects/redmine/wiki/Plugins#Installing-a-plugin
+   Final path to init.rb should look like: /YOUR_REDMINE_DIRECOTY/plugins/redmine_timelog_timer/init.rb
 2. Restart your Redmine web servers (e.g. mongrel, thin, mod_rails)
 3. Login and open any project, click the 'Log time' Link in the right menu, click Start to start the timer
 
