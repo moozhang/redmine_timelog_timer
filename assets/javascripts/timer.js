@@ -398,6 +398,15 @@
 
 		function getVal(val)
 		{
+			val = (val + '').split(":");
+			if(val.length > 1)
+			{
+				val = parseInt(val[0]) + parseInt(val[1]) / 60;
+			}
+			else
+			{
+				val = val[0];
+			}
 			return Math.abs(parseFloat(number_format(val, 2, '.', ''))) || 0;
 		}
 
