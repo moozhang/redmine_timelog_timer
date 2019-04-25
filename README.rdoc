@@ -67,7 +67,7 @@ A zip archive can be gotten from {GitHub}[https://github.com/e-dot/redmine_timel
 
 This plugin is licensed under the GNU GPL v3. 
 
-See {COPYRIGHT.txt}[https://github.com/e-dot/redmine_timelog_timer/blob/master/COPYRIGHT.txt] and {GPL.txt}[https://github.com/e-dot/redmine_timelog_timer/blob/master/GPL.txt] for details.
+See {COPYRIGHT.txt}[https://github.com/e-dot/redmine_timelog_timer/blob/master/COPYRIGHT.txt] and {GNU.txt}[https://github.com/e-dot/redmine_timelog_timer/blob/master/GNU.txt] for details.
 
 == Project help
 
