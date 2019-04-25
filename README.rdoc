@@ -5,6 +5,10 @@ Originally forked from the 'redmine timelog timer plugin' which is no longer mai
 
 == Change Log
 
+=== v2.0.2
+
+* Fix parsing of HH:MM time span format
+
 === v2.0.1 (2014/12/22)
 
  * Redmine v.2.5.x compatible
