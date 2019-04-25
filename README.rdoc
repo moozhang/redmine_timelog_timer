@@ -57,11 +57,11 @@ A zip archive can be gotten from {GitHub}[https://github.com/e-dot/redmine_timel
 2. Update your Git copy with `git pull`
 3. Restart your Redmine
 
-  * cd /opt/redmine/redmine-3.4.3/plugins/redmine_timelog_timer
-   git pull
-   cd /opt/redmine/redmine-3.4.3
-   bundle exec rake redmine:plugins:migrate RAILS_ENV=production
-   systemctl restart apache2
+ cd /opt/redmine/redmine-3.4.3/plugins/redmine_timelog_timer
+ git pull
+ cd /opt/redmine/redmine-3.4.3
+ bundle exec rake redmine:plugins:migrate RAILS_ENV=production
+ systemctl restart apache2
 
 == License
 
