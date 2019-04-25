@@ -6,6 +6,6 @@ Redmine::Plugin.register :redmine_timelog_timer do
   author 'Behigh & Github Community'
   description 'A leightweight javascript timer for Hours field in timelog form'
   version '2.0.3'
-  url 'https://github.com/behigh/redmine_timelog_timer.git'
+  url 'https://github.com/e-dot/redmine_timelog_timer'
 #  author_url 'http://example.com/about'
 end
