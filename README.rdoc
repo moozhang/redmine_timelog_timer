@@ -41,7 +41,6 @@ A zip archive can be gotten from {GitHub}[https://github.com/e-dot/redmine_timel
 1. Follow the installation steps at: http://www.redmine.org/projects/redmine/wiki/Plugins#Installing-a-plugin
    Final path to init.rb should look like: /YOUR_REDMINE_DIRECOTY/plugins/redmine_timelog_timer/init.rb
 2. Restart your Redmine web servers (e.g. mongrel, thin, mod_rails)
-   systemctl restart apache2
 3. Login and open any project, click the 'Log time' Link in the right menu, click Start to start the timer
 
 == Upgrade
@@ -57,6 +56,12 @@ A zip archive can be gotten from {GitHub}[https://github.com/e-dot/redmine_timel
 1. Open a shell to your Redmine's plugins/redmine_timelog_timer folder
 2. Update your Git copy with `git pull`
 3. Restart your Redmine
+
+   cd /opt/redmine/redmine-3.4.3/plugins/redmine_timelog_timer
+   git pull
+   cd /opt/redmine/redmine-3.4.3
+   bundle exec rake redmine:plugins:migrate RAILS_ENV=production
+   systemctl restart apache2
 
 == License
 
