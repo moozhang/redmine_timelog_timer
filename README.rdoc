@@ -5,6 +5,10 @@ Originally forked from the 'redmine timelog timer plugin' which is no longer mai
 
 == Change Log
 
+=== v2.0.3 (2019/04/25)
+
+* Added french translation
+
 === v2.0.2 (2017/10/09)
 
 * Fix parsing of HH:MM time span format
