@@ -7,11 +7,11 @@ Originally forked from the 'redmine timelog timer plugin' which is no longer mai
 
 === v2.0.3 (2019/04/25)
 
-* Added french translation
+ * Added french translation
 
 === v2.0.2 (2017/10/09)
 
-* Fix parsing of HH:MM time span format
+ * Fix parsing of HH:MM time span format
 
 === v2.0.1 (2014/12/22)
 
@@ -57,7 +57,7 @@ A zip archive can be gotten from {GitHub}[https://github.com/e-dot/redmine_timel
 2. Update your Git copy with `git pull`
 3. Restart your Redmine
 
-   cd /opt/redmine/redmine-3.4.3/plugins/redmine_timelog_timer
+  * cd /opt/redmine/redmine-3.4.3/plugins/redmine_timelog_timer
    git pull
    cd /opt/redmine/redmine-3.4.3
    bundle exec rake redmine:plugins:migrate RAILS_ENV=production
